@@ -1,3 +1,5 @@
+https://beesec.gitbook.io/python-zero-to-hero/
+
 # Python Zero to Hero
 
 ![](.gitbook/assets/undraw_code_review_l1q9.svg)
