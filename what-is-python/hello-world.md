@@ -2,7 +2,7 @@
 
 It is very traditional for every programmer, when starting out, to start with a hello world program.
 
-Create a new file called `[hello.py](<http://hello.py>)` and open it up in your text editor of choice \(the one you downloaded in the last section\).
+Create a new file called `hello.py` and open it up in your text editor of choice \(the one you downloaded in the last section\).
 
 In this new file, copy and paste this line:
 
@@ -25,6 +25,8 @@ Now, open up a Terminal, navigate to your directory and run:
 ```text
 python hello.py
 ```
+
+\_Make sure you use `python` or `python3`, whichever one worked for you in the last section.
 
 And you'll see on your screen printed:
 

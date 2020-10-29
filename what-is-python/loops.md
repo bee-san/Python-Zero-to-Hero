@@ -11,14 +11,14 @@ We can do this using something called a `loop`.
 ```python
 name = ""
 while name != "Jabba":
-	name = input("What is your name? ")
+    name = input("What is your name? ")
 ```
 
 Since while loops take conditionals, what happens if we assign a True value to it?
 
 ```python
 while True:
-	print("This loop runs!")
+    print("This loop runs!")
 ```
 
 The loop runs forever, as the condition never changes.
@@ -29,9 +29,9 @@ We can tell our loop to break using a the keyword `break`.
 
 ```python
 while True:
-	name = input("What is your name? ")
-	if name == "Jabba":
-		break
+    name = input("What is your name? ")
+    if name == "Jabba":
+        break
 ```
 
 The `break` keyword tells Python to break out of the while loop. If we do this, our code is no longer in the `while` and will continue to run.
@@ -44,7 +44,7 @@ While loops are very good for pointers. A pointer is a variable which keeps trac
 names = ["Skidy", "DorkStar", "Ashu", "Elf"]
 pointer = 0
 while pointer <= len(names):
-	print(names[i])
-	pointer += 1
+    print(names[i])
+    pointer += 1
 ```
 
