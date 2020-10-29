@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Python Zero to Hero](README.md)
 
 ## What is Python?
 
