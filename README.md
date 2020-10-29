@@ -2,7 +2,9 @@
 
 ![](.gitbook/assets/undraw_code_review_l1q9.svg)
 
-Hey! This is my \(Bee's\) Python room. This room will take you from knowing nothing about programming all the way to being an advanced programmer.
+Hey! This is my introduction to Python. Generally you should already know a little about Python, as this aims to take you to becoming an expert Pythonista!
 
-If you already know Python, feel free to skip to the Advanced section. But, there are still some things you can learn from the basics section.
+You can view this book here:
+
+[https://beesec.gitbook.io/python-zero-to-hero/](https://beesec.gitbook.io/python-zero-to-hero/)
 
