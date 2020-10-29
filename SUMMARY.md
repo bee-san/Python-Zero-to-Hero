@@ -20,3 +20,7 @@
 * [Introduction](advanced/introduction.md)
 * [Set Theory](advanced/set-theory.md)
 
+---
+
+* [General Purpose](general-purpose.md)
+
