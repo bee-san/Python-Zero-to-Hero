@@ -11,6 +11,8 @@
 * [Tooling](what-is-python/tooling.md)
 * [Hello, World!](what-is-python/hello-world.md)
 * [Variables](what-is-python/variables.md)
+* [Operators](what-is-python/operators.md)
+* [Object Orientated Programming](what-is-python/object-orientated-programming.md)
 * [Boolean Values](what-is-python/boolean-values.md)
 * [If Statements](what-is-python/if-statements.md)
 * [Loops](what-is-python/loops.md)

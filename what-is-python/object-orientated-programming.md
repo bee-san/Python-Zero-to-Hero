@@ -20,7 +20,7 @@ What do wheels have? Well, they have tyres so let's add one.
 
 ```python
 class Wheel:
-	self.tyre = "Michelin"
+    self.tyre = "Michelin"
 ```
 
 Now our wheel has a Michelin tyre.
@@ -47,9 +47,9 @@ Imagine you have a Person class:
 
 ```python
 class Person:
-	def __init__(self, first_name, last_name):
-		self.first_name = first_name
-		self.last_name = last_name
+    def __init__(self, first_name, last_name):
+        self.first_name = first_name
+        self.last_name = last_name
 ```
 
 The `__init__` stands for `initialisation`. When we _initialise_ \(create\) an object from this class, this function runs. The function has 3 arguments.
@@ -92,16 +92,16 @@ With magic methods!
 
 ```python
 class Person:
-	def __init__(self, first_name, last_name):
-		self.first_name = first_name
-		self.last_name = last_name
+    def __init__(self, first_name, last_name):
+        self.first_name = first_name
+        self.last_name = last_name
 
-	def __add__(self, person):
-		# Adds the 2 strings together and updates our lastname
-		self.last_name = self.last_name + "-" + person.last_name
-		# Updates 2nd persons last name to match ours
-		person.last_name = self.last_name
-		return person
+    def __add__(self, person):
+        # Adds the 2 strings together and updates our lastname
+        self.last_name = self.last_name + "-" + person.last_name
+        # Updates 2nd persons last name to match ours
+        person.last_name = self.last_name
+        return person
 ```
 
 **Tip: all magic methods follow the format `__X__` with double underscores on either side. They are sometimes called "dunder methods" because of this.**
@@ -124,7 +124,7 @@ dark.last_name
 
 But the real magic here is that we implemented addition for our own code! This is the power of magic methods, and I'll go into much more detail later on. Anyway, back to operators!
 
-### What data structures have magic methods?
+## What data structures have magic methods?
 
 Almost all of them implement the basic magic methods which are:
 
