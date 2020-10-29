@@ -28,7 +28,7 @@ But what if, eventually, we wanted to square more numbers? Or if we wanted to sq
 
 ```python
 def square(num):
-	return num**2
+    return num**2
 ```
 
 Now we can square any number we want with this function.
@@ -59,15 +59,14 @@ And then finally, as we saw with if statements we need to include a : on the end
 
 ```python
 def skidy(name):
-	
 ```
 
 Now we check to see if the name is "dork" and return "Hello, Dorkstar".
 
 ```python
 def skidy(name):
-	if name == "dork":
-		return "Hello, DorkStar"
+    if name == "dork":
+        return "Hello, DorkStar"
 ```
 
 Remember the magic box from earlier? It output something. The `return` statement is the output.
@@ -76,10 +75,10 @@ Now, we want to return "Hello, {name}" if their name isn't Dork:
 
 ```python
 def skidy(name):
-	if name == "dork":
-		return "Hello, DorkStar"
-	else:
-		return f"Hello, {name}"
+    if name == "dork":
+        return "Hello, DorkStar"
+    else:
+        return f"Hello, {name}"
 ```
 
 We now have our function! But you may have noticed something unusual. What's that `f"Goodbye, {name}"`?
@@ -90,7 +89,7 @@ Strings are kinda boring. They don't really convey information. If we rewrote th
 
 ```python
 def skidy():
-	return "Hello, Celestron"
+    return "Hello, Celestron"
 ```
 
 What if Cmnatic does not run our program? What if it's someone else?
@@ -116,10 +115,10 @@ Let's go back to our code.
 
 ```python
 def skidy(name):
-	if name == "dork":
-		return "Hello, DorkStar"
-	else:
-		return f"Hello, {name}"
+    if name == "dork":
+        return "Hello, DorkStar"
+    else:
+        return f"Hello, {name}"
 ```
 
 This code is messy. Do you know why? Hint: `f-strings`.
@@ -157,7 +156,7 @@ We can rewrite our code using one line if statements and f-strings like so:
 
 ```python
 def skidy(name):
-	print(f"Hello, {'DorkStar' if name == 'Dork' else name}")
+    print(f"Hello, {'DorkStar' if name == 'Dork' else name}")
 ```
 
 To include quotation marks in strings, we have 2 options.
@@ -173,7 +172,7 @@ How do you think we can call our new function? Hint: we have been using function
 
 ```python
 def skidy(name):
-	print(f"Hello, {'DorkStar' if name == 'Dork' else name}")
+    print(f"Hello, {'DorkStar' if name == 'Dork' else name}")
 
 skidy("Dork")
 # Hello, DorkStar

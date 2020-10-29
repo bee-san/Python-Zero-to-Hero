@@ -8,8 +8,8 @@ Let's see a little example.
 name = "0xEmma"
 
 def hello(name):
-	name = "Blob Bros"
-	print(f"Hello, {'DorkStar' if name == 'Dork' else name}")
+    name = "Blob Bros"
+    print(f"Hello, {'DorkStar' if name == 'Dork' else name}")
 
 hello()
 print(name)

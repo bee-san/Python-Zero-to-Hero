@@ -9,7 +9,7 @@ So for example, if the list is not empty:
 ```python
 x = [6]
 if x:
-	print("I run!")
+    print("I run!")
 ```
 
 Because x is non-empty, it has a truthy value. Which means this reads as "If True" and it runs. If it read as "If False" it does not run.
@@ -47,7 +47,7 @@ names = ["Skidy", "DorkStar", "Ashu", "Elf"]
 name = input("What is your name? ")
 
 if name in names:
-	print("The Wide One has allowed you to come in.")
+    print("The Wide One has allowed you to come in.")
 ```
 
 Now, what if their name does not appear in the list of names? We can use an else clause.
@@ -58,9 +58,9 @@ names = ["Skidy", "DorkStar", "Ashu", "Elf"]
 name = input("What is your name? ")
 
 if name in names:
-	print("The Wide One has allowed you to come in.")
+    print("The Wide One has allowed you to come in.")
 else:
-	print("The Wide One has not allowed you to come in.")
+    print("The Wide One has not allowed you to come in.")
 ```
 
 ## One Line If Statements
@@ -83,7 +83,7 @@ For loops are best described how they are read:
 ```python
 names = ["Skidy", "DorkStar", "Ashu", "Elf"]
 for name in names:
-	print(name)
+    print(name)
 ```
 
 For every name in the list of names, do something \(in this case — print the name\).
@@ -102,7 +102,7 @@ Now to loop over this:
 
 ```python
 for i in range(1, 9):
-	print(i)
+    print(i)
 ```
 
 Note: We often use i as the variable in a for loop as it stands for "item".
