@@ -39,7 +39,7 @@ Take a look at this Python code:
 
 ```python
 def hello_world():
-	print("Hello, World!")
+    print("Hello, World!")
 ```
 
 If I told you that `def` was short for `define` you'd now know every single word in that program. Whereas with C++ it was a lot harder to understand.
@@ -52,7 +52,7 @@ Now, what if I told you that I lied to you? The computer doesn't understand any 
 
 That's right! Even C++ it doesn't understand. What if I told you that there's an even more un-readable language called Assembly?
 
- Here's an example I stole from the [web](https://cs.lmu.edu/~ray/notes/x86assembly/), "Hello, World!" in x86 Assembly.
+Here's an example I stole from the [web](https://cs.lmu.edu/~ray/notes/x86assembly/), "Hello, World!" in x86 Assembly.
 
 ```text
 global    _start
@@ -105,7 +105,7 @@ With our hand-written Assembly, we cannot.
 
 In fact, we cannot even confirm that our assembly code is the most efficient method. In C++ we use something called zero cost abstractions for this. See my Rust room for more information `room code: rust`.
 
-2. How does the computer understand human language?
+1. How does the computer understand human language?
 
 Bingo! This is where I was going with this.
 

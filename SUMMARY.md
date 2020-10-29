@@ -6,20 +6,17 @@
 
 * [High Level](what-is-python/high-level.md)
 * [Intrepreted](what-is-python/intrepreted.md)
-* [General Purpose](what-is-python/general-purpose.md)
+* [Boolean Values](what-is-python/boolean-values.md)
+* [If Statements](what-is-python/if-statements.md)
+* [Loops](what-is-python/loops.md)
+* [Functions](what-is-python/functions/README.md)
+  * [Scope](what-is-python/functions/scope.md)
+* [Python Libraries](what-is-python/python-libraries.md)
+* [Virtual Environments](what-is-python/virtual-environments/README.md)
+  * [PyEnv](what-is-python/virtual-environments/pyenv.md)
 
-## Tooling
+## Advanced
 
-* [Installing Python](tooling/installing-python.md)
-
-## Getting Started
-
-* [Hello, World!](getting-started/hello-world.md)
-* [Variables](getting-started/variables.md)
-* [Operators](getting-started/operators.md)
-
-## Object Orientated Programming
-
-* [Introduction](object-orientated-programming/introduction.md)
-* [Advanced](object-orientated-programming/advanced.md)
+* [Introduction](advanced/introduction.md)
+* [Set Theory](advanced/set-theory.md)
 
