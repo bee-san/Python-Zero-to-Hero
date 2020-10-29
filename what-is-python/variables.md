@@ -31,7 +31,7 @@ Now, let's dis-spell a myth.
 
 Variables are like buckets in the sense that you can store things in them. Imagine a bucket and you want to put a sentence into it:
 
-![](../.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/image%20%284%29.png)
 
 We make a bucket called hello and in the bucket we put in the string \`Hello, World!"
 
@@ -47,7 +47,7 @@ But in Python, we don't. We _pass by reference_. As in, we merely pass a locatio
 
 This is very important to understand, as it can cause a significant amount of headaches later on.
 
-![Gif from here](../.gitbook/assets/pass-by-reference-vs-pass-by-value-animation.gif)
+![Gif from here](../.gitbook/assets/yes.gif)
 
 Remember lists from earlier?
 
@@ -72,7 +72,6 @@ list2 = [3, 4]
 list1.append(list2)
 # List1 is now [1, 2, [3, 4]]
 # We appended the list, not the contents of the list
-
 ```
 
 When we append a list to another list, we do not merge the elements together. Instead we append the entire list \(including the list itself\) to the other list.
@@ -116,6 +115,4 @@ Here's a quick table for data structures in Python:
 | Float | A floating point number | `6.11` | `float(x)` |
 | List | A list of items | `[1, 2, 3]` | `list(x)` |
 | Dictionary | A key:value pairing. Talked about later. | `{1: "One"}` | `dict(x)` |
-
-
 
