@@ -6,5 +6,11 @@ Hey! This is my introduction to Python. Generally you should already know a litt
 
 You can view this book here:
 
-[https://beesec.gitbook.io/python-zero-to-hero/](https://beesec.gitbook.io/python-zero-to-hero/)
+{% embed url="https://beesec.gitbook.io/python-zero-to-hero/" %}
+
+You can find the GitHub repo here:
+
+{% embed url="https://github.com/bee-san/Python-Zero-to-Hero" %}
+
+
 
