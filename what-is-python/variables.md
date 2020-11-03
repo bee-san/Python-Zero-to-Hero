@@ -116,3 +116,73 @@ Here's a quick table for data structures in Python:
 | List | A list of items | `[1, 2, 3]` | `list(x)` |
 | Dictionary | A key:value pairing. Talked about later. | `{1: "One"}` | `dict(x)` |
 
+## How do lists work, really?
+
+Lists are quite strange because they have no set length. Python is written in C, and in C arrays \(lists\) have set lengths -- so how come Python lists do not have lengths?
+
+That's because they do, but they are abstracted in such a way that you don't need to worry about it.
+
+Let's look at a naieve approach for arrays.
+
+```text
+[1, 2, 3, None, None, None]
+```
+
+Imagine this is an array of length 6, where None represents empty space. We fill up the array with data:
+
+```text
+[1, 2, 3, 4, 5, 6]
+```
+
+Now we want to append one more item to the array, `7`.  The array is fixed length, so we cannot append to it with this size.
+
+Our naieve approach is to increase the array by size 1.
+
+```text
+[1, 2, 3, 4, 5, 6, None]
+```
+
+And then append the value to it:
+
+```text
+[1, 2, 3, 4, 5, 6, 7]
+```
+
+But everytime we want to append a value we have to create a whole new array, copy all the previous values in and insert our new value.
+
+This is obviously a slow algorithm.
+
+Python uses an algorithm called **table doubling** to battle this slowness. I bet you can guess what it does!
+
+When we reach the limit of an array and we want to increase the size, we create a new array double the size of the previous array.
+
+This saves us time from creating a new array with every append, while also keeping the size to a minimum. It's problematic to create an array that's only 1 element larger than our last array.
+
+It's problematic to create an array that is the maximum possible size \(as it costs memory\).
+
+Table doubling is the perfect balance between them both.
+
+### Removing Elements
+
+Let's say we have a table of size 6.
+
+We add one element.
+
+Our table size doubles to 12.
+
+We remove one element.
+
+To save space, we delete the 6 extra array elements.
+
+We then add another element, and double the table again.
+
+It is costly to double the table in this instance, where we rapidly remove one element and add another element. Instead what we do is only reduce the table when we go below 3 times the doubled size.
+
+With our above example, we double to 12. We remove 1 item so we have 5 items. We do not reduce the size of the array. Only if we hit 4 elements \(12 / 3 = 4, 3 times smaller\) do we reduce the size.
+
+This fixes our above problem.
+
+Something to note is that I'm not sure whether Python uses 3, or 4, or 5 to decide when to shrink a table. It's unimportant so long as it's &gt;2. 
+
+
+
