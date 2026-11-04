@@ -1,5 +1,7 @@
 # Python Zero to Hero
 
+[![Discord](https://img.shields.io/discord/754001738184392704?logo=discord&label=Discord)](https://discord.skerritt.blog)
+
 ![](.gitbook/assets/undraw_code_review_l1q9.svg)
 
 Hey! This is my introduction to Python. Generally you should already know a little about Python, as this aims to take you to becoming an expert Pythonista!
